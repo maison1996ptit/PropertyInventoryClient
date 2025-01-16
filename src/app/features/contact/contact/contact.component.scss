@@ -1,0 +1,190 @@
+.dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .table-container {
+    margin-top: 30px;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .actions {
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .actions .btn {
+    margin-left: 10px;
+  }
+  
+  .table-container button {
+    margin-top: 10px;
+  }
+  
+  .p-dialog {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fffcf0;
+  }
+  
+  .p-dialog .p-dialog-header {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  label {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  input.p-inputtext {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .p-text-secondary {
+    color: #888;
+  }
+  
+  .p-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+  }
+  
+  .p-button[severity="secondary"] {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #333;
+  }
+  
+  .p-button:not([severity="secondary"]) {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .p-button:hover {
+    opacity: 0.9;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .w-24 {
+    width: 6rem;
+  }
+  
+  .flex-auto {
+    flex-grow: 1;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .createForm {
+    background-color: #007bff !important;
+    border-radius: 1px #fff;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+  }
+  .centered-cell {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%; 
+  }
+  
+  .centered-cell input,
+  .centered-cell span {
+    text-align: center; 
+  }
+  .custom-dialog .p-dialog {
+    background-color: blueviolet !important;
+  }
+  /* Điều chỉnh nền cho modal */
+  .p-dialog {
+    background-color: blueviolet !important; /* Nền của dialog */
+  }
+  
+  /* Điều chỉnh màu nền của backdrop (phần nền mờ phía sau dialog) */
+  .p-dialog-mask {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Màu tối đằng sau dialog */
+  }
+  .modal-dialog {
+    margin-top: 200px; /* Điều chỉnh vị trí của modal cách phần trên của trang */
+  }
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .pagination-controls button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-controls button[disabled] {
+    cursor: not-allowed;
+    background-color: #e0e0e0;
+    border-color: #ccc;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination-controls span {
+    font-size: 14px;
+    color: #555;
+    display: inline-block;
+    min-width: 80px; 
+    text-align: center;
+  }
+  
+  
+  

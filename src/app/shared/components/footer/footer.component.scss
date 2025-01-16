@@ -1,0 +1,10 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f8f9fa;  /* Thêm màu nền cho footer */
+    text-align: center;  /* Căn giữa nội dung trong footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);  /* Để footer có chút bóng mờ */
+  }

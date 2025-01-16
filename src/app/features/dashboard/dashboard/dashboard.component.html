@@ -1,0 +1,38 @@
+
+
+  <div class="dashboard-title">
+    <h1>Dashboard</h1>
+  </div>
+  
+  <div class="table-container">
+  <table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+          <th>Property Name</th>
+          <th>Asking Price</th>
+          <th>Owner</th>
+          <th>Date of Purchase</th>
+          <th>Sold At Price in EUR</th>
+          <th>Sold At Price in USD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of data | slice:(pageNumber-1)*pageSize:pageNumber*pageSize">
+        <td>{{ s.id }}</td>
+        <td>{{ s.propertyName }}</td>
+        <td>{{ s.askingPrice | currency:'EUR':'symbol':'1.0-0' }}</td>
+        <td>{{ s.owner }}</td>
+        <td>{{ s.datePurchare | date:'MM/dd/yyyy' }}</td>
+        <td>{{ s.soldAtEur | currency:'EUR':'symbol':'1.0-0' }}</td>
+        <td>{{ s.soldAtUSD | currency:'USD':'symbol':'1.0-0' }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="pagination-controls">
+    <button [disabled]="pageNumber === 1" (click)="pageNumber = pageNumber - 1">Previous</button>
+    <span>Page {{ pageNumber }} of {{ totalPages }}</span>
+    <button [disabled]="pageNumber === totalPages" (click)="pageNumber = pageNumber + 1">Next</button>
+  </div>
+  </div>
+  

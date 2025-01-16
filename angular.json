@@ -32,6 +32,14 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/devextreme/dist/css/dx.light.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "https://cdn.jsdelivr.net/npm/primeng@19.0.5/resources/themes/lara-light-indigo/theme.css",
+  "https://cdn.jsdelivr.net/npm/primeng@19.0.5/resources/primeng.min.css",
+  "https://cdn.jsdelivr.net/npm/primeicons/primeicons.css",
               "src/styles.scss"
             ],
             "scripts": [],
@@ -96,6 +104,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/cyan-orange.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -103,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "aa5315aa-6726-471a-893b-ea852baab1bc"
   }
 }

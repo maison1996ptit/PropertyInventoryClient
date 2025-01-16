@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .content {
+    min-height: 100%;  /* Đảm bảo nội dung có đủ chiều cao */
+    padding-bottom: 50px;  /* Đảm bảo không bị che khuất bởi footer */
+  }
+  
+  /* Nếu bạn muốn giữ footer ở cuối cùng khi trang không đủ dài */
+  .full-height {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Đảm bảo chiều cao trang đầy đủ */
+  }
+  
+  .main-content {
+    flex: 1;  /* Chiếm toàn bộ không gian còn lại */
+  }
